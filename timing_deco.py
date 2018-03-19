@@ -2,7 +2,6 @@
 import time
 
 def time_it(func):
-
     def wrapper(*args,**kwargs):
         start = time.time()
         result = func(*args,**kwargs)  
